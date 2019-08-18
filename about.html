@@ -4,12 +4,15 @@
  h1 {font-size: 50px;}
  body {background-color: lightpink}
  #left {
-   float: left;
+
    width: 60%;
  }
  #right {
-   float: right;
+
    width: 40%;
+ }
+ #main {
+     display: flex;
  }
 </style>
 
@@ -20,14 +23,14 @@
             <a href="about.html"> About </a>
             <a href="animation.html"> Animation </a>
     </div>
-  <div id="left">
-    <img src=Untitled.png height="500px"/>
-    <h1> A Great Description of who you really are!</h1>
-    
-  </div>
-  <div id="right">
-    <h1>The reason why I want to learn is because Technology Is like an experiment That I can try!</h1>  
-  </div>
-
+    <div id="main">
+         <div id="left">
+            <img src=Untitled.png height="500px"/>
+            <h1> A Great Description of who you really are!</h1>
+        </div>
+        <div id="right">
+            <h1>The reason why I want to learn is because Technology Is like an experiment That I can try!</h1>  
+        </div> 
+    </div>
 </body>
 </html>
